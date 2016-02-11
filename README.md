@@ -15,7 +15,7 @@ The program uses three methods (Stop-and-Wait, Selective-Repeat and Go-Back-N).
 
 
 
-![Alt text](Screen\ Shots\ 3.png?raw=true "Screen shot 3")
+![Alt text](Screen\ Shot\ 3.png?raw=true "Screen shot 3")
 
 
 
