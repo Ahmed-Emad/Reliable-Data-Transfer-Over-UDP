@@ -1,0 +1,40 @@
+
+By: Ahmed Emad Barakat  |  2807.
+
+- The project is built and compiled by IntelliJ IDEA 15 and java JDK 1.8
+
+-  The main class is Main.java and the modifications must be done there
+
+- Set the port number to work on in
+        Networks.setPortNumber( 'port_number' );
+
+- Select the mode you wish in
+        Networks.setMode (Networks.Mode. 'mode' );
+        ( you can choose from (StopAndWait, SelectiveRepeat, GoBackN) )
+
+- Set the simulation server folder in
+        PacketsManager.setServerPath( 'server_folder_path' );
+
+- Set preferred window size in
+        PacketsManager.setWindowSize( 'window_size' )
+        ( if mode is "StopAndWait", then window size is ignored )
+
+-  Set the packet size you prefer in
+        PacketsManager.setPacketSize( 'packet_size' )
+        ( maximum is 1024 )
+
+-  Set preferred drop rate to simulate packet loss in
+        PacketsManager.setDropRate( 'drop_rate' )
+
+-  Set preferred wait time for every packet loss in
+        PacketsManager.setWaitTime( 'wait_time' )
+
+- For every client you wish to simulate just copy the code for first client and change
+        String client'X'Name = 'name';
+        UDPClient client1 = new UDPClient(client1Name,  'client_path' ,  'color_number' );
+        client'X'.setRequestFile( 'file_name' );
+
+        ( 'name' must be unique )
+        ( 'client_path' to write client received files into )
+        ( 'color_number' to identify client messages in terminal )
+        ( 'file_name' the requested file name from server "the server must have this file" )
